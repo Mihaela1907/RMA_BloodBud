@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">BloodBud</string>
+    <string name="whoinfoTitle">TKO MOŽE DARIVATI KRV?</string>
+    <string name="whoinfo">
+        Krv može darivati svaki čovjek dobrog općeg zdravstvenog stanja:\n\n
+        \u2022 Dob: od 18 do 65 godina, do 60 godina ako krv daje prvi put, do 70 godina 1-2 godišnje nakon pregleda i odluke liječnika specijalista transfuzijske medicine.\n
+        \u2022 Tjelesna težina: iznad 55 kg, proporcionalna visini.\n
+        \u2022 Tjelesna temperatura: do 37°C.\n
+        \u2022 Krvni tlak: sistolični 100 do 180 mm Hg, dijastolični 60 do 110 mm Hg.\n
+        \u2022 Puls: 50 do 100 otkucaja u minuti.\n
+        \u2022 Hemoglobin: muškarci 135 g/L, žene 125 g/L.\n\n
+        U Hrvatskoj, muškarci, darivatelji pune krvi smiju dati krv do 4 puta godišnje, s razmakom između darivanja od 3 mjeseca. Žene, darivateljice pune krvi, smiju dati krv do 3 puta godišnje, s razmakom između darivanja od 4 mjeseca.\n\n
+
+        Trajno se odbiju od davanja krvi osobe koje su bolovale ili sada boluju od teških kroničnih bolesti dišnog i probavnog sustava kao i osobe koje boluju od bolesti srca i krvnih žila, zloćudnih bolesti, bolesti jetre, AIDS-a, šećerne bolesti (osobe liječene inzulinskom terapijom), živčanih i duševnih bolesti. Trajno se odbijaju osobe koje su zbog svog ponašanja ili aktivnosti izložene riziku dobivanja zaraznih bolesti koje se mogu prenijeti krvlju:\n\n
+
+        \u2022ovisnici o alkoholu ili drogama\n
+        \u2022muškarci koji su u životu imali spolne odnose s drugim muškarcima\n
+        \u2022žene i muškarci koji su imali spolni odnos s prostitutkama\n
+        \u2022osobe koje često mijenjaju seksualne partnere (promiskuitetne osobe)\n
+        \u2022osobe koje su uzimale drogu intravenskim putem\n
+        \u2022osobe koje su liječene zbog spolno prenosivih bolesti (sifilis, gonoreja)\n
+        \u2022osobe koje su HIV-pozitivne\n
+        \u2022seksualni partneri gore navedenih osoba
+    </string>
+    <string name="whyinfoTitle">ZAŠTO DARIVATI KRV?</string>
+    <string name="whyinfo">
+        Krv nije moguće proizvesti na umjetan način. Jedini izvor toga lijeka je čovjek - darivatelj krvi. Svi mi, kada nam zatreba krv kao lijek, ovisni smo samo o dobrovoljnim darivateljima krvi.
+        Kako bi se osiguralo brzo, kvalitetno i sigurno liječenje bolesnika potrebno je uvijek imati dovoljan broj darivatelja krvi, a time i dovoljne količine krvi u pričuvi.\n\n
+        Program okupljanja dobrovoljnih darivatelja krvi je socijalni program. U Hrvatskoj, kao i u drugim europskim zemljama, odnos između darivatelja i transfuzijske službe osniva se na partnerstvu između darivatelja krvi, društva/zajednice i transfuzijske službe.
+        U osnovi transfuzijske djelatnosti jest program okupljanja darivatelja krvi. O provedbi toga programa ovisi liječenje bolesnika transfuzijama krvi, krvnim pripravcima i derivatima plazme.\n\n
+        Darivanjem krvi postali ste članom dobrovoljnih davatelja krvi zbog dobrovoljnosti, besplatnosti i solidarnosti, s željom da u najplemenitijoj namjeri pomognete drugom.
+        Život možete spasiti za samo jedan sat Vašeg vremena. Nemojte zaboraviti, poklonili ste  dar posebne vrijednosti: Vašu krv!
+    </string>
+    <string name="howinfoTitle">KAKO DARIVATI KRV?</string>
+    <string name="howinfo">Darivanje krvi jednostavan je postupak.
+        Vaše zdravlje nam je značajno i stoga svako darivanje krvi uključuje provjeru vašeg zdravstvenog stanja.\n\nProvjera količine željeza u krvi:\n
+        \u2022brzom metodom, iz kapljice krvi dobivene laganim ubodom u jagodicu prsta.\n
+        Kratki razgovor s liječnikom:\n
+        \u2022provjera vašeg dosadašnjeg i sadašnjeg zdravstvenog stanja.\n\n
+        Liječnički pregled:\n
+        \u2022Uključuje provjeru krvnog tlaka i provjeru rada srca.\n
+        Tek kada smo sigurni da smijete dati krv započinje postupak uzimanja krvi.\n\n
+        Darivatelj krvi je udobno smješten na krevetu za davanje krvi:\n
+        \u2022Iskusan zdravstveni tehničar odabire venu u lakatnoj jami i bezbolno uvodi iglu u venu.
+        Igla je povezana s plastičnom vrećicom u koju se daje krv.
+        Samo darivanje krvi traje 8 - 12 minuta. Igla i plastična vrećica za uzimanje krvi su sterilne i samo za jednokratnu uporabu, tj. mogu se primijetiti samo za jednokratno darivanje.\n\n
+        Davatelju nakon darivanja krvi slijedi kratkotrajni odmor uz osvježenje i lagani obrok.\n
+        Sveukupno, darivanje krvi vam može oduzeti oko 30 minuta vašeg vremena.</string>
+</resources>

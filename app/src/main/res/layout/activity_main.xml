@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    android:background="@drawable/app_back3">
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Ime i prezime"
+        android:inputType="text"/>
+
+    <RadioGroup android:id="@+id/male_female_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton android:id="@+id/male_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muško" />
+
+        <RadioButton android:id="@+id/female_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Žensko"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/weight_input"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:hint="kg"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Krvna grupa:"
+        android:textSize="20sp" />
+
+    <RadioGroup android:id="@+id/bloodGroup_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton android:id="@+id/a_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <RadioButton android:id="@+id/b_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"/>
+
+        <RadioButton android:id="@+id/ab_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AB" />
+
+        <RadioButton android:id="@+id/o_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O"/>
+    </RadioGroup>
+
+    <RadioGroup android:id="@+id/rh_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton android:id="@+id/rhplus_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <RadioButton android:id="@+id/rhminus_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datum rođenja:"
+        android:textSize="20sp" />
+
+    <DatePicker
+        android:id="@+id/datePicker_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:background="#67ffffff" />
+
+    <Button
+        android:id="@+id/save_info"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Spremi"
+        android:alpha="0.7"
+        android:background="@drawable/custombtn"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

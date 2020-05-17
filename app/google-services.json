@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "271879323644",
+    "firebase_url": "https://android-9bc57.firebaseio.com",
+    "project_id": "android-9bc57",
+    "storage_bucket": "android-9bc57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271879323644:android:ef28b3ebac11edab3e7c79",
+        "android_client_info": {
+          "package_name": "com.example.bloodbud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271879323644-7f4qv0339ddk70ccf0vh6jies0eqgppc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bloodbud",
+            "certificate_hash": "380ca2af649798d22ba2c8ef287491cee0063be4"
+          }
+        },
+        {
+          "client_id": "271879323644-gtvahcfpp3fovq71d9c6dem7ug693lt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr4ldWPKhOUFf9OkFnJqJECIUtBw8iLJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271879323644-gtvahcfpp3fovq71d9c6dem7ug693lt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

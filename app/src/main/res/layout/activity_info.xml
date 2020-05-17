@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp"
+    android:background="@drawable/app_back3">
+
+    <LinearLayout
+        android:id="@+id/info_header"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_alignParentRight="true"
+        android:gravity="right">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prijava"
+            android:id="@+id/logIn_view"
+            android:background="@drawable/custombtn"
+            android:alpha="0.7"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Registracija  "
+            android:id="@+id/register_view"
+            android:background="@drawable/custombtn"
+            android:layout_marginLeft="5dp"
+            android:alpha="0.7"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info_header"
+        android:layout_alignParentRight="true"
+        android:paddingTop="15dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tko može darivati krv?"
+            android:id="@+id/who_info"
+            android:background="@drawable/btn1"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:alpha="0.9"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zašto darivati krv?"
+            android:id="@+id/why_info"
+            android:background="@drawable/btn2"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:alpha="0.9"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kako darivati krv?"
+            android:id="@+id/how_info"
+            android:background="@drawable/btn3"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:alpha="0.9"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GDJE DONIRATI KRV?"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/crvenikriz_info"
+            android:background="@drawable/crvenikriz"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.8"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/kbc_info"
+            android:background="@drawable/kbc"
+            android:layout_marginBottom="10dp"
+            android:alpha="0.8"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_back"
+    android:gravity="center_horizontal"
+    android:padding="15dp">
+
+    <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <ProgressBar
+        android:id="@+id/admin_aplus_progress"
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        style="@style/Widget.ProgressBar.Vertical"
+        android:progress="0"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.8"/>
+    <TextView
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        android:text="A+"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        />
+    <ProgressBar
+        android:id="@+id/admin_bplus_progress"
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        style="@style/Widget.ProgressBar.Vertical"
+        android:progress="0"
+        android:layout_toRightOf="@id/admin_aplus_progress"
+        android:layout_marginRight="10dp"
+        android:alpha="0.8"/>
+    <TextView
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        android:text="B+"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@id/admin_aplus_progress"/>
+    <ProgressBar
+        android:id="@+id/admin_abplus_progress"
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        style="@style/Widget.ProgressBar.Vertical"
+        android:progress="0"
+        android:layout_toRightOf="@id/admin_bplus_progress"
+        android:layout_marginRight="10dp"
+        android:alpha="0.8"/>
+    <TextView
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        android:text="AB+"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@id/admin_bplus_progress"/>
+    <ProgressBar
+        android:id="@+id/admin_oplus_progress"
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        style="@style/Widget.ProgressBar.Vertical"
+        android:progress="0"
+        android:layout_toRightOf="@id/admin_abplus_progress"
+        android:alpha="0.8"/>
+    <TextView
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        android:text="0+"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@id/admin_abplus_progress"/>
+    <ProgressBar
+        android:id="@+id/admin_aminus_progress"
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        style="@style/Widget.ProgressBar.Vertical"
+        android:progress="0"
+        android:layout_below="@id/admin_aplus_progress"
+        android:layout_marginRight="10dp"
+        android:alpha="0.8"/>
+    <TextView
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        android:text="A-"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/admin_aplus_progress"/>
+    <ProgressBar
+        android:id="@+id/admin_bminus_progress"
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        style="@style/Widget.ProgressBar.Vertical"
+        android:progress="0"
+        android:layout_below="@id/admin_aplus_progress"
+        android:layout_toRightOf="@id/admin_aminus_progress"
+        android:layout_marginRight="10dp"
+        android:alpha="0.8"/>
+    <TextView
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        android:text="B-"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/admin_aplus_progress"
+        android:layout_toRightOf="@id/admin_aminus_progress"/>
+    <ProgressBar
+        android:id="@+id/admin_abminus_progress"
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        style="@style/Widget.ProgressBar.Vertical"
+        android:progress="0"
+        android:layout_below="@id/admin_aplus_progress"
+        android:layout_toRightOf="@id/admin_bminus_progress"
+        android:layout_marginRight="10dp"
+        android:alpha="0.8"/>
+    <TextView
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        android:text="AB-"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/admin_aplus_progress"
+        android:layout_toRightOf="@id/admin_bminus_progress"/>
+    <ProgressBar
+        android:id="@+id/admin_ominus_progress"
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        style="@style/Widget.ProgressBar.Vertical"
+        android:progress="0"
+        android:layout_below="@id/admin_aplus_progress"
+        android:layout_toRightOf="@id/admin_abminus_progress"
+        android:alpha="0.8"/>
+    <TextView
+        android:layout_width="70dip"
+        android:layout_height="90dip"
+        android:text="0-"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/admin_aplus_progress"
+        android:layout_toRightOf="@id/admin_abminus_progress"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unesite razinu krvi u litrama:"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/bloodLevel_input"
+        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:hint="L"
+        android:inputType="number"
+        android:gravity="center"/>
+
+    <RadioGroup android:id="@+id/admin_bloodGroup_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton android:id="@+id/admin_a_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A" />
+
+        <RadioButton android:id="@+id/admin_b_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"/>
+
+        <RadioButton android:id="@+id/admin_ab_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AB" />
+
+        <RadioButton android:id="@+id/admin_o_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O"/>
+    </RadioGroup>
+
+    <RadioGroup android:id="@+id/admin_rh_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton android:id="@+id/admin_rhplus_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+        <RadioButton android:id="@+id/admin_rhminus_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/add_blood"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Dodaj"
+        android:alpha="0.8"
+        android:background="@drawable/custombtn"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/logout_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Odjava"
+        android:alpha="0.8"
+        android:background="@drawable/custombtn" />
+
+</LinearLayout>
