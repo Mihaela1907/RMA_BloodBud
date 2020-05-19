@@ -111,6 +111,7 @@ public class AdminActivity extends AppCompatActivity {
         String rhFactors = rhRadio.getText().toString();
         DatabaseReference currentUser = FirebaseDatabase.getInstance().getReference().child("Users").child(userId);
         currentUser.child(group+rhFactors).setValue(bloodLiter);
+        showBloodLevels();
     }
 
     private void showBloodLevels()
